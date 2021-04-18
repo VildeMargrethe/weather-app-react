@@ -10,9 +10,6 @@ export default function CityDate() {
       <li className="today row">
         <p id="date"></p>
       </li>
-      <li>
-        <p id="description"></p>
-      </li>
     </ul>
   );
 }
