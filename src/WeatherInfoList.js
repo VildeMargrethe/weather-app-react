@@ -3,7 +3,7 @@ import "./WeatherInfoList.css";
 
 export default function WeatherInfoList() {
   return (
-    <ul class="weather-info-list">
+    <ul className="weather-info-list">
       <li>
         <p>
           Humidity: <span id="humidity"></span>%

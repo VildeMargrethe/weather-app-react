@@ -3,11 +3,11 @@ import "./Weather.css";
 
 export default function Weather() {
   return (
-    <div class="clearfix weather-temperature">
-      <img src="" alt="Clear" id="weather-icon" class="float-left" />
-      <span class="temperature" id="temperature"></span>
-      <span class="units">
-        <a href="#" id="celsius-link" class="active">
+    <div className="clearfix weather-temperature">
+      <img src="" alt="Clear" id="weather-icon" className="float-left" />
+      <span className="temperature" id="temperature"></span>
+      <span className="units">
+        <a href="#" id="celsius-link" className="active">
           {" "}
           °C{" "}
         </a>

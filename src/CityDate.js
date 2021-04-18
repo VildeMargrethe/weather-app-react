@@ -3,11 +3,11 @@ import "./CityDate.css";
 
 export default function CityDate() {
   return (
-    <ul class="city-date-temp-list">
+    <ul className="city-date-temp-list">
       <li>
-        <h2 class="city" id="city-name"></h2>
+        <h2 className="city" id="city-name"></h2>
       </li>
-      <li class="today row">
+      <li className="today row">
         <p id="date"></p>
       </li>
       <li>
